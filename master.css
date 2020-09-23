@@ -6,3 +6,53 @@
 
 
 /* Permanent style */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.header-top{
+  background-color: #F4F9FD;
+  border-bottom: 1px solid black;
+}
+
+.header-bottom{
+}
+
+.medium-box{
+  width: 100vw;
+  height: 600px;
+}
+
+.big-box{
+  width: 100vw;
+  height: 1500px;
+}
+
+.small-row{
+  width:100vw;
+  height: 80px;
+}
+
+#top-section{
+  background-color: #FFF2EF;
+  border-bottom: 3px solid black;
+}
+
+#separator{
+  background-color: #AFEBE4;
+  border-bottom: 3px solid black;
+}
+
+#central-section{
+  background-color: #F4F9FD;
+}
+
+#insight-section{
+  background-color: #00BAA9;
+}
+
+#footer{
+  background-color:#32495B;
+}
