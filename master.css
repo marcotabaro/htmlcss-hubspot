@@ -1,16 +1,36 @@
 /* Temporary style */
-#temp-box{
-  width:20%;
-  height:100%;
-  background-color: red;
+
+.left-header{
+  height: 80px;
+  line-height: 80px;
+  float:left;
+}
+
+.right-header{
+    height: 80px;
+    line-height: 80px;
+    float:right;
 }
 
 
 /* Permanent style */
+
 *{
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.container::after{
+  clear:both;
+  content:"";
+  display: table;
+}
+.container{
+  width:70%;
+  height: 100%;
+  margin:auto;
+  position: relative;
 }
 
 .header-top{
@@ -22,17 +42,14 @@
 }
 
 .medium-box{
-  width: 100vw;
   height: 600px;
 }
 
 .big-box{
-  width: 100vw;
   height: 1500px;
 }
 
 .small-row{
-  width:100vw;
   height: 80px;
 }
 
