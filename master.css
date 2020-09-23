@@ -12,6 +12,13 @@
     float:right;
 }
 
+.left-col{
+  width: 50%;
+  float: left;
+  position: relative;
+  top: 50px;
+}
+
 
 /* Permanent style */
 
@@ -73,4 +80,14 @@
 
 #footer{
   background-color:#32495B;
+}
+
+.p-main{
+  padding-bottom: 40px;
+}
+
+.structure-image{
+  position: absolute;
+  bottom: 0;
+  right: 0;
 }
