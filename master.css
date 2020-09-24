@@ -60,9 +60,9 @@
   position: relative;
 }
 
-.big-box {
+/* .big-box {
   height: 1500px;
-}
+} */
 
 .small-row {
   height: 80px;
@@ -101,8 +101,32 @@
 
 .col-mid-box {
   float: left;
-  width: 23%;
-  margin-right: 50px;
+  width: 30%;
+}
+
+.margin-right{
+  margin:0 40px 40px 0;
+}
+
+.medium-box-bottow-row:after{
+	clear:both;
+	content:"";
+	display:table;
+}
+
+.top-box {
+  float: left;
+  border: 0 1px 1px 0 solid white;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+}
+
+.bottom-box {
+  border: 1px 1px 0 0 solid white;
+  width: 100px;
+  height: 100px;
+  background-color: white;
 }
 
 #top-section {
@@ -139,7 +163,7 @@
 
 .row-mid {
   text-align: center;
-  padding-bottom: 50px;
+  padding-bottom:50px;
 }
 
 .spaziatura {
