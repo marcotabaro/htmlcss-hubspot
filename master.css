@@ -35,6 +35,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "AvenirNext","Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 .container::after {
   clear:both;
   content:"";
@@ -161,7 +165,10 @@ p {
   text-align: center;
   padding: 30px;
   line-height: 200%;
+  width: 100%;
 }
+
+nth-child(2)
 
 
 /* Style Background */
