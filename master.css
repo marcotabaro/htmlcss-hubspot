@@ -52,7 +52,7 @@ body {
 }
 
 .medium-box {
-  height: 750px;
+  height: 850px;
   position: relative;
 }
 
@@ -143,7 +143,7 @@ body {
 .spaziatura {
   padding: 30px 0 30px 0;
 }
-/* 
+/*
 .internal-padding {
   padding: 30px;
 } */
@@ -208,13 +208,58 @@ td {
 .last-col-left {
   float: left;
   width: 40%;
+  text-align: center;
+  padding: 50px 100px 0 100px;
+  margin: auto;
+  position: relative;
 }
 
 .last-col-right {
   float: right;
   max-width: 60%;
+  padding: 30px 0 30px 0;
 }
 
+.company-img {
+  float: left;
+  height: 62px;
+  text-align: center;
+  padding: 20px;
+}
+
+.last-col-left2 {
+  float: left;
+  width: 45%;
+
+}
+
+.last-col-right2 {
+  width: 55%;
+  float: right;
+
+}
+
+.woman {
+  width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 450px;
+}
+
+button {
+  background-color: lightgrey;
+  border: none;
+  color: #32495b;
+  padding: 20px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 4px;
+  display: block;
+}
 
 /* Style Background */
 
