@@ -56,6 +56,12 @@ body {
   position: relative;
 }
 
+.small-img{
+  width:  100px;
+  height: 100px;
+  background-size: cover;
+}
+
 .small-row {
   height: 80px;
 }
@@ -137,10 +143,10 @@ body {
 .spaziatura {
   padding: 30px 0 30px 0;
 }
-
+/* 
 .internal-padding {
   padding: 30px;
-}
+} */
 
 .medium-box-top-row {
   text-align: center;
