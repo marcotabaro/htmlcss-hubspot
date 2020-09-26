@@ -261,6 +261,36 @@ button {
   display: block;
 }
 
+.button-footer {
+  background-color: #DADEE0;
+  border: none;
+  color: #32495b;
+  padding: 10px 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 10px;
+  cursor: pointer;
+  border: 1px solid white;
+  border-radius: 4px;
+  display: block;
+  }
+
+.footer-top {
+  padding
+  column-gap: 80px;
+  column-count: 4;
+  list-style-type: none;
+  padding: 40px;
+}
+
+.footer-list {
+  list-style-type: none;
+  line-height: 35px;
+}
+
+.title-list {
+  color: #F5F6F7;
+}
 
 
 /* Style Background */
@@ -291,6 +321,7 @@ button {
 
 #footer {
   background-color:#32495B;
+  color: #C3CEDA;
 }
 
 #p-mid{
