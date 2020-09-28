@@ -9,10 +9,10 @@
 }
 
 .right-header {
-  height: 80px;
-  width:50%;
   line-height: 80px;
   float:right;
+  text-align: right;
+  display: inline-block;
 }
 
 .text-right {
@@ -36,7 +36,8 @@
 }
 
 body {
-  font-family: "AvenirNext","Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Lato', sans-serif;
+  color: #33475B;
 }
 
 .container::after {
@@ -60,6 +61,10 @@ body {
   width:  100px;
   height: 100px;
   background-size: cover;
+}
+
+.medium-img {
+  width: 25%;
 }
 
 .small-row {
@@ -254,15 +259,14 @@ td {
 button {
   background-color: #FE775A;
   border: none;
-  color: #32495b;
-  padding: 20px 25px;
+  color: white;
+  padding: 15px 15px;
   text-align: center;
   text-decoration: none;
   font-size: 14px;
   cursor: pointer;
   border: 1px solid white;
   border-radius: 4px;
-  display: block;
 }
 
 .button-footer {
@@ -281,7 +285,7 @@ button {
 
 .footer-top {
   column-gap: 80px;
-
+  column-count: 4;
   list-style-type: none;
   padding: 67px;
 }
@@ -294,7 +298,6 @@ button {
   list-style-type: none;
   line-height: 34px;
   max-height: 200px;
-  column-count: 4;
 }
 
 .title-list {
