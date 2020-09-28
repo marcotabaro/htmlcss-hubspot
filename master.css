@@ -94,9 +94,24 @@ body {
 }
 
 .col-mid-right {
-  width: 70%;
+  width: 40%;
   text-align: left;
   margin: auto;
+}
+
+.inline {
+  display: inline-block;
+}
+
+#hrinline {
+  width: 60%;
+  text-align: center;
+}
+
+#button-top {
+  background-color: white;
+  color: #FE775A;
+  border: 1px solid #FE775A
 }
 
 .hr-short{
@@ -123,7 +138,7 @@ body {
 }
 
 .p-main {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 .bottom-right-image {
@@ -146,7 +161,7 @@ body {
 }
 
 .spaziatura {
-  padding: 30px 0 30px 0;
+  padding: 20px 0 20px 0;
 }
 /*
 .internal-padding {
@@ -159,6 +174,9 @@ body {
   line-height: 50px;
 }
 
+li {
+  margin: 10px;
+}
 p {
     font-size: 18px;
     line-height: 24px;
