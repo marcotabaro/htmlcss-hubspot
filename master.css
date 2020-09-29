@@ -315,7 +315,7 @@ button {
 .footer-list {
   list-style-type: none;
   line-height: 34px;
-  max-height: 200px;
+  height: 200px;
 }
 
 .title-list {
